@@ -6,6 +6,8 @@
     "dev": "turbo dev",
     "lint": "turbo lint",
     "typecheck": "turbo typecheck",
+    "test:backend": "pnpm --filter @acme/api test",
+    "test:components": "pnpm --filter @acme/web test:components",
     "clean": "turbo clean"
   },
   "devDependencies": {
